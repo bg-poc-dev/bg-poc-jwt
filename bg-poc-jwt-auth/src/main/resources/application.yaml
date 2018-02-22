@@ -1,0 +1,14 @@
+server:
+  port: 8081
+  contextPath: /uaa
+
+bg:
+  users:
+    authorization:
+      enabled: true
+      clientId: bg-service
+      clientSecret: bg-service
+      scope: bg-service
+      accessTokenValiditySeconds: 3600
+      refreshTokenValiditySeconds: 2592000
+
