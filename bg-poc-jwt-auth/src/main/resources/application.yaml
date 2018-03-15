@@ -9,6 +9,6 @@ bg:
       clientId: bg-service
       clientSecret: bg-service
       scope: bg-service
-      accessTokenValiditySeconds: 3600
+      accessTokenValiditySeconds: 36000000
       refreshTokenValiditySeconds: 2592000
 

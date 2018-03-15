@@ -1,15 +1,25 @@
 server:
   port: 8080
 
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: validate
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-  datasource:
-    username: bg_core
-    password: test123
-    url: jdbc:postgresql://bg-test3.reksoft.ru:5432/bg_users
-    driver-class-name: org.postgresql.Driver
+#spring:
+#  jpa:
+#    hibernate:
+#      ddl-auto: validate
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#  datasource:
+#    username: bg_core
+#    password: test123
+#    url: jdbc:postgresql://bg-test3.reksoft.ru:5432/bg_users
+#    driver-class-name: org.postgresql.Driver
+
+
+bg:
+  users:
+    authorization:
+      bgUserIdHeader: Bg-User-Id
+
+unsecure:
+  service:
+    url: http://localhost:8083

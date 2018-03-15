@@ -1,0 +1,8 @@
+server:
+  port: 8083
+
+bg:
+  users:
+    authorization:
+      bgUserId: user_id
+      bgUserIdHeader: Bg-User-Id

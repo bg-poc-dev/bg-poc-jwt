@@ -15,6 +15,7 @@
         <module>bg-poc-jwt-api-gateway</module>
         <module>bg-poc-jwt-auth</module>
         <module>bg-poc-jwt-service</module>
+        <module>bg-poc-jwt-unsecure-service</module>
     </modules>
 
 </project>
